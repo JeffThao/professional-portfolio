@@ -18,7 +18,7 @@ function Nav() {
       <FaLinkedin style={{fill:'grey'}} />
     </a>
     <a href="https://docs.google.com/document/d/12tpNtMYP7WrWKGt5vjewkLY6fyWEhzJ_2RF5LybiFzs/edit?usp=sharing"
-      target="_parent" rel="noopener" title="Resume">
+      target="_blank" rel="noopener" title="Resume">
         <FaFileAlt style={{fill:'grey'}} />
       </a>
     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
