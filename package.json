@@ -1,8 +1,8 @@
 {
+  "homepage": "https://github.com/JeffThao/professional-portfolio",
   "name": "professional-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://jeffthao.github.io/professional-portfolio/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.6",
     "@testing-library/react": "^11.2.2",
@@ -14,7 +14,7 @@
     "react-fontawesome": "^1.7.1",
     "react-icons": "^3.11.0",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "4.0.1",
+    "react-scripts": "^4.0.1",
     "web-vitals": "^0.2.4"
   },
   "scripts": {
