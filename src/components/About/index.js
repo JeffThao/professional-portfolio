@@ -20,9 +20,9 @@ function About() {
             graduate Dec. 2020.
           </p>
           <p>
-            Feel free to check out my Github at
-            <a href="www.https://github.com/JeffThao">github.com/JeffThao</a>.
-            Or you may email me at
+            Feel free to check out my Github at{" "}
+  <a href="www.https://github.com/JeffThao"> {" "}github.com/JeffThao</a>.
+            Or you may email me at {""}
             <a href="mailto:jeff.thao92@gmail.com">jeff.thao92@gmail.com</a>.
           </p>
         </div>

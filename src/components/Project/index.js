@@ -1,5 +1,4 @@
 import React from "react";
-import projects from "./project.json";
 import whatsCooking from "../../images/whats-cooking.jpeg";
 import santasBag from "../../images/santas-bag.png";
 import passGenerator from "../../images/password-gen.jpg";
@@ -9,12 +8,12 @@ import eatDaBurger from "../../images/eat-da-burger.png";
 
 function Project() {
   return (
-    <div className="container rounded col-xs col-sm-8 my-5">
+    <div className="container rounded col-xs col-sm-8 my-5" style={{ backgroundColor: "silver" }}>
       <h1>Portfolio</h1>
       <hr />
       <div className="row">
-        <div className="col-xs-6">
-          <div className="card">
+        <div className="col-md-4">
+          <div className="card text-center">
             <a
               href="https://coryjquirk.github.io/whats-cookin/"
               target="_blank"
@@ -38,8 +37,8 @@ function Project() {
             </div>
           </div>
         </div>
-        <div className="col-xs-6">
-          <div className="card">
+        <div className="col-md-4">
+        <div className="card text-center">
             <a
               href="https://github.com/samergain/Santas_Bag"
               target="_blank"
@@ -59,8 +58,8 @@ function Project() {
             </div>
           </div>
         </div>
-        <div className="col-xs-6">
-          <div className="card">
+        <div className="col-md-4">
+        <div className="card text-center">
             <a
               href="https://jeffthao.github.io/password-generator/"
               target="_blank"
@@ -83,8 +82,8 @@ function Project() {
             </div>
           </div>
         </div>
-        <div className="col-xs-6">
-          <div className="card">
+        <div className="col-md-4">
+        <div className="card text-center">
             <a href="https://jeffthao.github.io/daily-planner/" target="_blank" rel="noreferrer">
               <img
                 src={dailyPlanner}
@@ -103,33 +102,28 @@ function Project() {
             </div>
           </div>
         </div>
-        <div className="col-xs-6">
-          <div className="card">
+        <div className="col-md-4">
+        <div className="card text-center">
             <a href="https://young-atoll-75451.herokuapp.com/" target="_blank" rel="noreferrer">
-              <img
-                src={dailyPlanner}
-                className="img-fluid"
-                style={{ width: "18rem" }}
-              />
             </a>
+            <img
+                  src={eatDaBurger}
+                  className="img-fluid"
+                  style={{ width: "18rem" }}
+                />
             <div className="card-body">
               <a
                 href="https://young-atoll-75451.herokuapp.com/"
                 target="_blank" rel="noreferrer"
               >
-                <img
-                  src={eatDaBurger}
-                  className="img-fluid"
-                  style={{ width: "18rem" }}
-                />
                 <h5 className="card-title">Eat Da Burger!</h5>
               </a>
               <p className="card-text"></p>
             </div>
           </div>
         </div>
-        <div className="col-xs-6">
-          <div className="card">
+        <div className="col-md-4">
+        <div className="card text-center">
             <a
               href="https://github.com/JeffThao/readme-generator"
               target="_blank" rel="noreferrer"
