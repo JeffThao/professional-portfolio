@@ -31,7 +31,7 @@ function Nav() {
       About
         </Link>
         {/* <a className="nav-link" href="/">About <span className="sr-only"></span></a> */}
-        <Link to="/" className={location.pathname === "/" ? "nav-link " : "nav-link"} style={{color:'black'}}>
+        <Link to="/project" className={location.pathname === "/project" ? "nav-link " : "nav-link"} style={{color:'black'}}>
         Portfolio
         </Link>
         {/* <a className="nav-link" href="/project">Portfolio</a> */}
