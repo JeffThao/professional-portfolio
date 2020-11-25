@@ -23,6 +23,7 @@ function Project() {
                 src={whatsCooking}
                 className="img-fluid"
                 style={{ width: "18rem" }}
+                alt="What's Cooking"
               />
             </a>
             <div className="card-body">
@@ -48,6 +49,7 @@ function Project() {
                 src={santasBag}
                 className="img-fluid"
                 style={{ width: "18rem" }}
+                alt="Santa's Bag"
               />
             </a>
             <div className="card-body">
@@ -69,6 +71,7 @@ function Project() {
                 src={passGenerator}
                 className="img-fluid"
                 style={{ width: "18rem" }}
+                alt="Password Generator"
               />
             </a>
             <div className="card-body">
@@ -89,6 +92,7 @@ function Project() {
                 src={dailyPlanner}
                 className="img-fluid"
                 style={{ width: "18rem" }}
+                alt="Daily Planner"
               />
             </a>
             <div className="card-body">
@@ -110,6 +114,7 @@ function Project() {
                   src={eatDaBurger}
                   className="img-fluid"
                   style={{ width: "18rem" }}
+                  alt="Eat Da Burger"
                 />
             <div className="card-body">
               <a
@@ -132,6 +137,7 @@ function Project() {
                 src={readmeGen}
                 className="img-fluid"
                 style={{ width: "18rem" }}
+                alt="Readme Generator"
               />
             </a>
             <div className="card-body">

@@ -7,7 +7,7 @@ import About from "./components/About";
 
 function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <div>
         <Nav />
         <Route exact path="/" component={About} />
