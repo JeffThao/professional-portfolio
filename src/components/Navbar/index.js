@@ -11,14 +11,14 @@ function Nav() {
       <Link to="/" className={location.pathname === "/" ? "nav-link " : "nav-link"} style={{color:'black'}}>
           Jeff Thao
         </Link>
-    <a href="https://github.com/JeffThao" target="_blank" title="Github">
+    <a href="https://github.com/JeffThao" target="_blank" rel="noreferrer" title="Github">
       <FaGithubAlt style={{fill:'grey'}}/>
     </a>
-    <a href="https://www.linkedin.com/in/jeffthao/" target="_blank" title="Linkedin">
+    <a href="https://www.linkedin.com/in/jeffthao/" target="_blank" rel="noreferrer" title="Linkedin">
       <FaLinkedin style={{fill:'grey'}} />
     </a>
     <a href="https://docs.google.com/document/d/12tpNtMYP7WrWKGt5vjewkLY6fyWEhzJ_2RF5LybiFzs/edit?usp=sharing"
-      target="_blank" rel="noopener" title="Resume">
+      target="_blank" rel="noreferrer" title="Resume">
         <FaFileAlt style={{fill:'grey'}} />
       </a>
     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
@@ -27,8 +27,14 @@ function Nav() {
     </button>
     <div className="collapse navbar-collapse ml-auto justify-content-end" id="navbarNavAltMarkup">
       <div className="navbar-nav">
-        <a className="nav-link" href="/">About <span className="sr-only"></span></a>
-        <a className="nav-link" href="/project">Portfolio</a>
+      <Link to="/" className={location.pathname === "/" ? "nav-link " : "nav-link"} style={{color:'black'}}>
+      About
+        </Link>
+        {/* <a className="nav-link" href="/">About <span className="sr-only"></span></a> */}
+        <Link to="/" className={location.pathname === "/" ? "nav-link " : "nav-link"} style={{color:'black'}}>
+        Portfolio
+        </Link>
+        {/* <a className="nav-link" href="/project">Portfolio</a> */}
       </div>
     </div>
   </nav>
