@@ -1,19 +1,21 @@
 import React from "react";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 import Nav from "./components/Navbar";
 import Footer from "./components/Footer";
+import Project from "./components/Project";
+import About from "./components/About";
 
 function App() {
   return (
-    <div>
-<Nav />
-<div className="container">
-<div className="row">
-<div className="col-md-12">
-<h1>Hello</h1>
-</div>
-</div>
-</div>
-    </div>
+    <Router>
+      <div>
+        <Nav />
+        <Route exact path="/" component={About} />
+        <Route exact path="/about" component={About} />
+        <Route exact path="/project" component={Project} />
+        <Footer />
+      </div>
+    </Router>
   );
 }
 
