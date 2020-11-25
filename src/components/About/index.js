@@ -3,7 +3,7 @@ import userImg from "./jeff-thao.jpeg";
 
 function About() {
   return (
-    <div className="container rounded col-xs col-sm-8 my-5">
+    <div className="container rounded col-xs col-sm-8 my-5" style={{ backgroundColor: "silver" }}>
       <h1>About Me</h1>
       <hr />
       <div className="row">
@@ -12,6 +12,7 @@ function About() {
             className="img rounded float-left img-fluid"
             src={userImg}
             alt="Jeff Thao"
+            style={{ width: "40%" }}
           />
           <p>
             Hi, my name is Jeff Thao. I live in the greater Minneapolis/St.
