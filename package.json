@@ -1,5 +1,5 @@
 {
-  "homepage": "http://jeffthao.github.io/professional-portfolio",
+  "homepage": "https://jeffthao.github.io/professional-portfolio/",
   "name": "professional-portfolio",
   "version": "0.1.0",
   "private": true,
@@ -42,8 +42,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "gh-pages": "2.0.1"
   }
 }
