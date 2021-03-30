@@ -27,7 +27,7 @@ function Nav() {
     </button>
     <div className="collapse navbar-collapse ml-auto justify-content-end" id="navbarNavAltMarkup">
       <div className="navbar-nav">
-      <Link to="/" className={location.pathname === "/" ? "nav-link " : "nav-link"} style={{color:'black'}}>
+      <Link to="/professional-portfolio" className={location.pathname === "/professional-portfolio" ? "nav-link " : "nav-link"} style={{color:'black'}}>
       About
         </Link>
         <Link to="/project" className={location.pathname === "/project" ? "nav-link " : "nav-link"} style={{color:'black'}}>

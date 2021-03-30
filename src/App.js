@@ -11,7 +11,6 @@ function App() {
       <div>
         <Nav />
         <Route exact path="/professional-portfolio" component={About} />
-        <Route exact path="/" component={About} />
         <Route exact path="/project" component={Project} />
         <Footer />
       </div>
