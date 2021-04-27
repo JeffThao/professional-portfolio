@@ -15,7 +15,7 @@ function About() {
             className="img rounded float-left img-fluid mr-3"
             src={userImg}
             alt="Jeff Thao"
-            style={{ width: "40%" }}
+            style={{ width: "40%", borderRadius: "400/2" }}
           />
           <p>
             Hi, my name is Jeff Thao. I live in the greater Minneapolis/St.
