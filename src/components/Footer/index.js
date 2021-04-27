@@ -3,7 +3,7 @@ import { FaGithubAlt, FaLinkedin, FaFileAlt, FaCopyright } from 'react-icons/fa'
 
 function Footer() {
   return (
-    <div className="container-fluid fixed-bottom" style={{ backgroundColor: "#019EF3" }}>
+    <div className="container-fluid fixed-bottom" style={{ backgroundColor: "grey" }}>
       <footer className="footer" >
         <p className="text-center">
           <FaCopyright style={{fill:'black'}} />

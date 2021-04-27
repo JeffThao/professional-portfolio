@@ -7,7 +7,7 @@ function Nav() {
   const location = useLocation();
 
   return (
-    <nav className="navbar navbar-expand-lg " style={{backgroundColor: "#019EF3"}}>
+    <nav className="navbar navbar-expand-lg " style={{backgroundColor: "grey"}}>
       <Link to="/" className={location.pathname === "/" ? "nav-link " : "nav-link"} style={{color:'black'}}>
           Jeff Thao
         </Link>
